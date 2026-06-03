@@ -1,0 +1,41 @@
+[
+	{
+		"id" : 6177,
+		"jozz" : 30,
+		"page" : 601,
+		"sura_no" : 103,
+		"sura_name_en" : "Al-‘Aṣr",
+		"sura_name_ar" : "العَصر",
+		"line_start" : 3,
+		"line_end" : 3,
+		"aya_no" : 1,
+		"aya_text" : "وَٱلۡعَصۡرِ ﰀ",
+		"aya_text_emlaey" : "والعصر"
+	},
+	{
+		"id" : 6178,
+		"jozz" : 30,
+		"page" : 601,
+		"sura_no" : 103,
+		"sura_name_en" : "Al-‘Aṣr",
+		"sura_name_ar" : "العَصر",
+		"line_start" : 3,
+		"line_end" : 3,
+		"aya_no" : 2,
+		"aya_text" : "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ ﰁ",
+		"aya_text_emlaey" : "إن الإنسان لفي خسر"
+	},
+	{
+		"id" : 6179,
+		"jozz" : 30,
+		"page" : 601,
+		"sura_no" : 103,
+		"sura_name_en" : "Al-‘Aṣr",
+		"sura_name_ar" : "العَصر",
+		"line_start" : 3,
+		"line_end" : 4,
+		"aya_no" : 3,
+		"aya_text" : "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ ﰂ",
+		"aya_text_emlaey" : "إلا الذين آمنوا وعملوا الصالحات وتواصوا بالحق وتواصوا بالصبر"
+	}
+]

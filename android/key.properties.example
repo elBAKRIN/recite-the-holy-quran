@@ -1,0 +1,17 @@
+# ============================================================================
+#  نموذج إعدادات توقيع تطبيق Android (Signing Configuration Template)
+# ----------------------------------------------------------------------------
+#  انسخ هذا الملف إلى "android/key.properties" واملأ القيم بمفاتيحك الخاصة.
+#  ملف key.properties والـ keystore (.jks) مُستبعَدان من Git ولا يُرفعان إطلاقاً.
+#
+#  لإنشاء keystore جديد:
+#    keytool -genkey -v -keystore ~/my-release-key.jks \
+#      -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+#
+#  راجع OPEN_SOURCE_GUIDE.md (قسم «توقيع التطبيق») للتفاصيل الكاملة.
+# ============================================================================
+
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=YOUR_KEY_ALIAS
+storeFile=/absolute/path/to/your/keystore.jks

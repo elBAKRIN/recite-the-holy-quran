@@ -1,0 +1,85 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+# مخرجات بناء أندرويد (لا تُرفَع)
+/android/build/
+/android/app/build/
+**/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ===== البيانات الحسّاسة — يُمنع رفعها نهائياً (راجع SECURITY.md) =====
+# متغيّرات البيئة والمفاتيح
+.env
+.env.local
+.env.*.local
+env.json
+*.env
+
+# توقيع التطبيق (Android)
+*.keystore
+*.jks
+key.properties
+signing.properties
+android/key.properties
+android/app/key.properties
+
+# بيانات اعتماد Firebase / Google
+google-services.json
+GoogleService-Info.plist
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+service-account.json
+service-account*.json
+firebase-adminsdk*.json
+
+# Fastlane
+fastlane/.env
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# أدوات تطوير محلّية لا تُنشر في المستودع العام
+.claude/
+Ai/
+opencode.json

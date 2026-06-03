@@ -1,0 +1,38 @@
+[
+    {
+		"id" : 6155,
+		"jozz" : 30,
+		"page" : "601",
+		"sura_no" : 103,
+		"sura_name_en" : "Al-‘Aṣr",
+		"sura_name_ar" : "العَصر ",
+		"line_start" : 3,
+		"line_end" : 3,
+		"aya_no" : 1,
+		"aya_text" : "وَالْعَصْرِ إِنَّ اَ۬لِانسَٰنَ لَفِے خُسْرٍ ﰀ"
+	},
+	{
+		"id" : 6156,
+		"jozz" : 30,
+		"page" : "601",
+		"sura_no" : 103,
+		"sura_name_en" : "Al-‘Aṣr",
+		"sura_name_ar" : "العَصر ",
+		"line_start" : 3,
+		"line_end" : 4,
+		"aya_no" : 2,
+		"aya_text" : "اِلَّا اَ۬لذِينَ ءَامَنُواْ وَعَمِلُواْ اُ۬لصَّٰلِحَٰتِ وَتَوَاصَوْاْ بِالْحَقِّ ﰁ"
+	},
+	{
+		"id" : 6157,
+		"jozz" : 30,
+		"page" : "601",
+		"sura_no" : 103,
+		"sura_name_en" : "Al-‘Aṣr",
+		"sura_name_ar" : "العَصر ",
+		"line_start" : 4,
+		"line_end" : 4,
+		"aya_no" : 3,
+		"aya_text" : "وَتَوَاصَوْاْ بِالصَّبْرِۖ ﰂ"
+	}
+]
