@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>فتح السورة والقراءة · القرآن الكريم</title>
+<meta name="description" content="ستتعلم كيف تفتح سورة وتقرأها: التنقل بين الصفحات، وشريط الصفحات، وملء الشاشة.">
+<meta property="og:title" content="فتح السورة والقراءة · القرآن الكريم">
+<meta property="og:description" content="ستتعلم كيف تفتح سورة وتقرأها: التنقل بين الصفحات، وشريط الصفحات، وملء الشاشة.">
+<meta property="og:image" content="https://elbakrin.github.io/recite-the-holy-quran/icon.png">
+<meta property="og:url" content="https://elbakrin.github.io/recite-the-holy-quran/guide/recitation/read/">
+<meta name="theme-color" content="#C89B5E">
+<link rel="icon" href="../../../icon.png">
+<style>
+  :root { --bg:#F6EFE7; --card:#FFFFFF; --text:#3B2F22; --muted:#7A6A58; --accent:#C89B5E; --on-accent:#FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1D1A16; --card:#2A2520; --text:#F3E9DC; --muted:#BBAE9C; --accent:#D4A86A; --on-accent:#1D1A16; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+         background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif; padding:24px 16px; }
+  main { width:100%; max-width:420px; background:var(--card); border-radius:28px; padding:32px 24px; text-align:center;
+          box-shadow:0 12px 40px rgba(0,0,0,.08); }
+  img { width:88px; height:88px; border-radius:22px; }
+  .app { color:var(--muted); font-size:14px; margin:12px 0 4px; }
+  h1 { font-size:24px; margin:0 0 10px; }
+  p { color:var(--muted); line-height:1.8; margin:0 0 6px; font-size:15px; }
+  .en { direction:ltr; font-size:13px; margin-top:4px; }
+  .buttons { display:flex; flex-direction:column; gap:10px; margin-top:24px; }
+  a.btn { display:block; padding:14px; border-radius:16px; font-weight:800; text-decoration:none; font-size:16px; }
+  .sub { display:block; direction:ltr; font-size:12px; font-weight:600; opacity:.8; margin-top:2px; }
+  a.primary { background:var(--accent); color:var(--on-accent); }
+  a.secondary { border:1.5px solid var(--accent); color:var(--accent); }
+  .hint { font-size:12px; margin-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <img src="../../../icon.png" alt="">
+  <div class="app">القرآن الكريم</div>
+  <h1>فتح السورة والقراءة</h1>
+  <p>ستتعلم كيف تفتح سورة وتقرأها: التنقل بين الصفحات، وشريط الصفحات، وملء الشاشة.</p>
+  <p class="en">Open a surah and read — Learn how to open and read a surah: turning pages, the page slider and fullscreen.</p>
+  <div class="buttons">
+    <a class="btn primary" id="open" href="intent://guide/recitation/read#Intent;scheme=recitequran;package=com.bakrin.recite_the_holy_quran;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.bakrin.recite_the_holy_quran%26referrer%3Dutm_source%253Dguide%2526utm_content%253Drecitation-read;end">افتح الشرح في التطبيق<span class="sub">Open in the app</span></a>
+    <a class="btn secondary" href="https://play.google.com/store/apps/details?id=com.bakrin.recite_the_holy_quran&amp;referrer=utm_source%3Dguide%26utm_content%3Drecitation-read">حمّل التطبيق من متجر Play<span class="sub">Get it on Google Play</span></a>
+  </div>
+  <p class="hint">إن لم يكن التطبيق مثبتًا يفتح المتجر لتثبيته.<br><span dir="ltr">If the app is not installed, the store opens to install it.</span></p>
+</main>
+<script>
+  // على أندرويد: يفتح التطبيق على الشرح، أو المتجر إن لم يكن مثبتًا.
+  if (/android/i.test(navigator.userAgent)) {
+    window.location.replace('intent://guide/recitation/read#Intent;scheme=recitequran;package=com.bakrin.recite_the_holy_quran;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.bakrin.recite_the_holy_quran%26referrer%3Dutm_source%253Dguide%2526utm_content%253Drecitation-read;end');
+  } else {
+    document.getElementById('open').style.display = 'none';
+  }
+</script>
+</body>
+</html>

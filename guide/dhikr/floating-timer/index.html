@@ -42,15 +42,15 @@
   <p>ستتعلم كيف يبقى مؤقت التسبيح معك بعد الخروج من التطبيق: أيقونة فوق الشاشة، والمؤقت في الإشعارات.</p>
   <p class="en">Timer outside the app — Learn how the tasbih timer stays with you after leaving the app: a bubble on your screen and the timer in notifications.</p>
   <div class="buttons">
-    <a class="btn primary" id="open" href="intent://guide/dhikr/floating-timer#Intent;scheme=recitequran;package=com.bakrin.recite_the_holy_quran;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.bakrin.recite_the_holy_quran%26referrer%3Dutm_source%253Dguide%2526utm_content%253Dfloating-timer;end">افتح الشرح في التطبيق<span class="sub">Open in the app</span></a>
-    <a class="btn secondary" href="https://play.google.com/store/apps/details?id=com.bakrin.recite_the_holy_quran&amp;referrer=utm_source%3Dguide%26utm_content%3Dfloating-timer">حمّل التطبيق من متجر Play<span class="sub">Get it on Google Play</span></a>
+    <a class="btn primary" id="open" href="intent://guide/dhikr/floating-timer#Intent;scheme=recitequran;package=com.bakrin.recite_the_holy_quran;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.bakrin.recite_the_holy_quran%26referrer%3Dutm_source%253Dguide%2526utm_content%253Ddhikr-floating-timer;end">افتح الشرح في التطبيق<span class="sub">Open in the app</span></a>
+    <a class="btn secondary" href="https://play.google.com/store/apps/details?id=com.bakrin.recite_the_holy_quran&amp;referrer=utm_source%3Dguide%26utm_content%3Ddhikr-floating-timer">حمّل التطبيق من متجر Play<span class="sub">Get it on Google Play</span></a>
   </div>
   <p class="hint">إن لم يكن التطبيق مثبتًا يفتح المتجر لتثبيته.<br><span dir="ltr">If the app is not installed, the store opens to install it.</span></p>
 </main>
 <script>
   // على أندرويد: يفتح التطبيق على الشرح، أو المتجر إن لم يكن مثبتًا.
   if (/android/i.test(navigator.userAgent)) {
-    window.location.replace('intent://guide/dhikr/floating-timer#Intent;scheme=recitequran;package=com.bakrin.recite_the_holy_quran;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.bakrin.recite_the_holy_quran%26referrer%3Dutm_source%253Dguide%2526utm_content%253Dfloating-timer;end');
+    window.location.replace('intent://guide/dhikr/floating-timer#Intent;scheme=recitequran;package=com.bakrin.recite_the_holy_quran;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.bakrin.recite_the_holy_quran%26referrer%3Dutm_source%253Dguide%2526utm_content%253Ddhikr-floating-timer;end');
   } else {
     document.getElementById('open').style.display = 'none';
   }
